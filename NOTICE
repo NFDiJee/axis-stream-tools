@@ -1,0 +1,32 @@
+Axis Stream Tools — Community Edition
+======================================
+
+This project contains third-party components with their own licenses:
+
+
+1. ACAP.c / ACAP.h — ACAP helper library
+   Author:  Fred Juhlin <fred.juhlin@gmail.com>
+   License: MIT
+   Source:  https://github.com/pandosme
+
+2. cJSON — Ultralightweight JSON parser in ANSI C
+   Author:  Dave Gamble and cJSON contributors
+   License: MIT
+   Source:  https://github.com/DaveGamble/cJSON
+
+3. FFmpeg — Cross-compiled and bundled as a static binary
+   License: GNU General Public License v2.0 or later (GPLv2+)
+   Source:  https://ffmpeg.org
+   Note:    FFmpeg is compiled from source during the Docker build.
+            The FFmpeg binary is distributed under GPLv2+.
+            The source code used for compilation is available at
+            https://ffmpeg.org/releases/ (version specified in Dockerfile).
+            This project's own source code remains under the MIT License.
+
+4. Bootstrap 5 — CSS/JS framework
+   License: MIT
+   Source:  https://getbootstrap.com
+
+5. jQuery 3.7.1
+   License: MIT
+   Source:  https://jquery.com
