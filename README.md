@@ -55,7 +55,7 @@ no PC, no server, no additional hardware required.
 ## Download
 
 Download the latest `.eap` package from the
-[**Releases**](https://github.com/dirkjensen/axis-stream-tools/releases) page.
+[**Releases**](https://github.com/NFDiJee/axis-stream-tools/releases) page.
 
 Two builds are provided for each release:
 
