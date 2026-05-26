@@ -1,8 +1,8 @@
-# Axis Stream Tools — Community Edition
+# Axis Stream Tools
 
-**Free ACAP for Axis cameras: Live Streaming**
+**ACAP for Axis cameras: YouTube Live Streaming**
 
-Axis Stream Tools CE turns any Axis network camera into a YouTube Live streaming device.
+Axis Stream Tools turns any Axis network camera into a YouTube Live streaming device.
 The app runs directly on the camera as an ACAP (Axis Camera Application Platform) —
 no PC, no server, no additional hardware required.
 
@@ -38,8 +38,15 @@ no PC, no server, no additional hardware required.
 - **Test email** button to verify SMTP configuration
 - Supports SMTP with STARTTLS (port 587) and SMTPS (port 465)
 
+### License Management
+- **Free license** — one free lifetime license per camera
+- **14-day trial** — full functionality without a license key
+- **Hardware-bound** — license key is tied to the camera's MAC address
+- **In-app activation** — enter key directly or request one via email from the License tab
+- **Periodic check** — stream stops automatically when trial expires
+
 ### Settings Management
-- **Export** all settings as a JSON file (sensitive fields masked)
+- **Export** all settings as a JSON file (license key excluded for security)
 - **Import** settings from a previously exported file
 - Filename includes date, app name, version, camera model and serial number
 
@@ -47,6 +54,7 @@ no PC, no server, no additional hardware required.
 - Clean, responsive **web UI** built with Bootstrap 5
 - **Dark mode / light mode** toggle with persistent preference
 - Floating **Save Configuration** button
+- **License tab** with status, camera info, activation, and request form
 - **About page** with device info, credits, and license information
 - **Changelog** page with full version history
 
@@ -61,8 +69,8 @@ Two builds are provided for each release:
 
 | File | Architecture | Cameras |
 |---|---|---|
-| `Axis_Stream_Tools_CE_*_aarch64.eap` | aarch64 | ARTPEC-8, ARTPEC-9, CV25 (most current models) |
-| `Axis_Stream_Tools_CE_*_armv7hf.eap` | armv7hf | ARTPEC-7 and older |
+| `Axis_Stream_Tools_*_aarch64.eap` | aarch64 | ARTPEC-8, ARTPEC-9, CV25 (most current models) |
+| `Axis_Stream_Tools_*_armv7hf.eap` | armv7hf | ARTPEC-7 and older |
 
 > **How to find your architecture:**
 > Open the camera's web interface and go to **System > Plain Config > Properties > System > Soc**.
@@ -94,6 +102,23 @@ The app will appear in the camera's app list and can be started/stopped from the
 > **Note:** The camera credentials are needed because the ACAP accesses the camera's
 > RTSP video stream internally. This requires a local admin account, not the VAPIX
 > service account.
+
+---
+
+## License Activation
+
+Axis Stream Tools includes a **14-day trial period** with full functionality.
+After the trial, a free license key is required to continue streaming.
+
+1. Go to the **License** tab in the web UI
+2. Your camera's MAC address and details are shown automatically
+3. Enter your email and click **Send License Request**
+4. You will receive your license key by email within 24 hours to 7 days
+5. Enter the key in the **License Key** field and click **Activate**
+
+The license key is bound to the camera hardware and is
+non-transferable. If the application is uninstalled, the license key
+is lost and must be requested again.
 
 ---
 
@@ -150,9 +175,9 @@ configuration and compile flags used to produce the bundled binary.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under a **Source Available** license — see the [LICENSE](LICENSE) file.
 
-See [NOTICE](NOTICE) for third-party component licenses.
+Third-party components remain under their respective open-source licenses — see [NOTICE](NOTICE).
 
 ---
 
@@ -165,4 +190,4 @@ See [NOTICE](NOTICE) for third-party component licenses.
 | FFmpeg | FFmpeg team — [ffmpeg.org](https://ffmpeg.org) | GPLv2+ |
 | Bootstrap 5 | Bootstrap team — [getbootstrap.com](https://getbootstrap.com) | MIT |
 | jQuery 3.7.1 | OpenJS Foundation — [jquery.com](https://jquery.com) | MIT |
-| **Community Edition** | **Dirk Jensen** — [schluettsiel-webcam.de](https://schluettsiel-webcam.de) | MIT |
+| **Axis Stream Tools** | **Dirk Jensen** — [schluettsiel-webcam.de](https://schluettsiel-webcam.de) | Source Available |
