@@ -1,32 +1,103 @@
-Axis Stream Tools — Community Edition
-======================================
+Axis Stream Tools - Third-Party Notices
 
-This project contains third-party components with their own licenses:
+This software includes the following third-party components:
 
 
-1. ACAP.c / ACAP.h — ACAP helper library
+1. ACAP Helper Library
    Author:  Fred Juhlin <fred.juhlin@gmail.com>
-   License: MIT
    Source:  https://github.com/pandosme
+   License: MIT License
 
-2. cJSON — Ultralightweight JSON parser in ANSI C
+   Copyright (c) 2025 Fred Juhlin
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the "Software"),
+   to deal in the Software without restriction, including without limitation
+   the rights to use, copy, modify, merge, publish, distribute, sublicense,
+   and/or sell copies of the Software, and to permit persons to whom the
+   Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+
+2. cJSON
    Author:  Dave Gamble and cJSON contributors
-   License: MIT
    Source:  https://github.com/DaveGamble/cJSON
+   License: MIT License
 
-3. FFmpeg — Cross-compiled and bundled as a static binary
-   License: GNU General Public License v2.0 or later (GPLv2+)
+   Copyright (c) 2009-2017 Dave Gamble and cJSON contributors
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the "Software"),
+   to deal in the Software without restriction, including without limitation
+   the rights to use, copy, modify, merge, publish, distribute, sublicense,
+   and/or sell copies of the Software, and to permit persons to whom the
+   Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+
+3. FFmpeg
    Source:  https://ffmpeg.org
-   Note:    FFmpeg is compiled from source during the Docker build.
-            The FFmpeg binary is distributed under GPLv2+.
-            The source code used for compilation is available at
-            https://ffmpeg.org/releases/ (version specified in Dockerfile).
-            This project's own source code remains under the MIT License.
+   License: GNU General Public License v2.0 or later (GPLv2+)
 
-4. Bootstrap 5 — CSS/JS framework
-   License: MIT
+   FFmpeg is bundled as a separate statically compiled binary and is
+   executed as an independent process. It is not linked into the
+   application code. The FFmpeg source code is available at:
+   https://ffmpeg.org/download.html
+
+   The specific version used: FFmpeg 6.1.2
+
+
+4. Bootstrap 5.1.3
    Source:  https://getbootstrap.com
+   License: MIT License
+
+   Copyright (c) 2011-2021 The Bootstrap Authors
+   https://github.com/twbs/bootstrap/graphs/contributors
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the "Software"),
+   to deal in the Software without restriction, including without limitation
+   the rights to use, copy, modify, merge, publish, distribute, sublicense,
+   and/or sell copies of the Software, and to permit persons to whom the
+   Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
 
 5. jQuery 3.7.1
-   License: MIT
    Source:  https://jquery.com
+   License: MIT License
+
+   Copyright (c) OpenJS Foundation and other contributors
+   https://jquery.org/license
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the "Software"),
+   to deal in the Software without restriction, including without limitation
+   the rights to use, copy, modify, merge, publish, distribute, sublicense,
+   and/or sell copies of the Software, and to permit persons to whom the
+   Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
